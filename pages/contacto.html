@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Trabajo de Julio</title>
+</head>
+
+<body>
+    <wrapper>
+        <header class="column">
+            <h1>
+                ♕ El Juego del Ajedrez ♔
+            </h1>
+            <nav class="row around solid white wrapthis">
+                <div><a href="./index.html">Home</a></div>
+                <div><a href="./biografia.html">Biografía</a></div>
+                <div><a href="./galeria.html">Galería</a></div>
+                <div><a href="./contacto.html">Contacto</a></div>
+            </nav>
+        </header>
+        <main>
+            <form class="center" action="">
+                <fieldset>
+                    <legend>
+                        <h1 class="center">
+                            Formulario de contacto
+                        </h1>
+                    </legend>
+                    <fieldset>
+                        <legend>
+                            <b>
+                                Tus datos personales
+                            </b>
+                        </legend>
+                        <label for="Nombre">Nombre: </label>
+                        <input type="text" id="Nombre" autofocus placeholder="Julio">
+                        <br><br>
+                        <label for="Apellidos">Apellidos: </label>
+                        <input type="text" id="Apellidos" placeholder="Cabanillas">
+                        <br><br>
+                        <label for="Fecha">Fecha de nacimiento: </label>
+                        <input type="date" id="Fecha">
+                        <br><br>
+                        <label>Sexo:</label> <br> <br>
+                        <div class="row around">
+                            <label for="Hombre">Hombre: </label>
+                            <input type="radio" id="Hombre" name="sexo" value="Hombre">
+                            <br> <br>
+                            <label for="Mujer">Mujer: </label>
+                            <input type="radio" id="Mujer" name="sexo" value="Mujer">
+                            <br> <br>
+                        </div>
+                    </fieldset>
+
+                        <fieldset class="column">
+                            <legend>
+                                <b>
+                                    Sobre ti
+                                </b>
+                            </legend>
+                            <br>
+                            <div>
+                                <label for="Juego">Juego favorito: </label>
+                                <select class="white"  class="black" id="" id="">
+                                    <optgroup class="black" label="Juego">
+                                        <datalist class="black" id="Juego">
+                                            <option class="black" value="Ajedrez">Ajedrez</option>
+                                            <option class="black" value="Mahjong">Mahjong</option>
+                                            <option class="black" value="Shogi">Shogi</option>
+                                            <option class="black" value="Go">Go</option>
+                                            <option class="black" value="Damas">Damas</option>
+                                            <option class="black" value="Molino">Juego del molino</option>
+                                            <option class="black" value="Raya">Tres en raya</option>
+                                        </datalist>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <br> <br>
+                            <div class="row">
+                                <label for="color">Color favorito:</label>
+                                <input type="color" id="color">
+                            </div>
+                            <br> <br>
+                            <label for="curiosidad">Tu experiencia con juegos de estrategia por turnos</label> <br>
+                            <textarea id="curiosidad" cols="75" rows="15" placeholder="Cuéntame lo que quieras :)"></textarea>
+                        </fieldset>
+                        <br>
+
+                        <fieldset>
+                            <legend>
+                                <b>
+                                    Datos de contacto
+                                </b>
+                            </legend>
+                            <br>
+                            <label for="telf">Teléfono: </label>
+                            <input type="tel" name="telf">
+                            <br> <br>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" required>
+                            <br> <br>
+                            <label for="ciudad">Ciudad de nacimiento: </label>
+                            <input list="ciudad" type="text">
+                            <datalist id="ciudad">
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Valencia">Valencia</option>
+                                <option value="Toledo">Toledo</option>
+                                <option value="Zaragoza">Zaragoza</option>
+                                <option value="Palmas">Las Palmas de Gran Canaria</option>
+                                <option value="Albacete">Albacete</option>
+                            </datalist>
+                        </fieldset>
+
+                        <div class="row around">
+                            <input type="submit" value="Enviar formulario">
+                            <input type="reset" value="Resetear formulario">
+                        </div>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer class="center">
+            <table>
+                <tr>
+                    <td>Teléfono:</td>
+                    <td>954666333</td>
+                </tr>
+                <tr>
+                    <td>Correo:</td>
+                    <td>ajedrezenespana@gmail.com</td>
+                </tr>
+            </table>
+        </footer>
+    </wrapper>
+</body>
+</html>

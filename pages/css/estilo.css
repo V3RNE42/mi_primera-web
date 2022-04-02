@@ -1,0 +1,105 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    padding: 0.2em;
+    margin: 0.2em;
+    border-width: 0.1em;
+    border-radius: 0.35em;
+    text-align: left;
+    overflow: auto;
+    width:auto
+}
+body, nav>div{
+    background-color: black;
+}
+.white, input, textarea {
+    background-color: beige;
+    color: black;
+}
+.black {
+    color: black;
+}
+header {
+    background-image: url("fondo.png");
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.wrapthis {
+    display: flex;
+    flex-wrap: wrap;
+}
+.around {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.center, header>h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.solid, tr {
+    border-style: solid;
+}
+.orange {
+    background-color: rgb(151, 112, 12);
+    border-color: rgb(151, 112, 12);
+}
+img {
+    background-color: rgb(151, 112, 12);
+    height: 10.5em;
+    border-style: solid;
+    border-radius: 50%;
+}
+#color {
+    background-color: black;
+    border-color: black;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+}
+.pieza {
+    max-width: min-content;
+    border-color: rgb(151, 112, 12);
+    border-radius: 10%;
+    border-style: groove;
+    border-width: 0.3em;
+}
+.big {
+    display: flex;
+    flex-grow: 3;
+    min-height: 3em;
+}
+.small {
+    display: flex;
+    flex-grow: 1.35;
+}
+h2, h1, legend>b, 
+fieldset>input:hover,div>input:hover,
+textarea:hover, a:hover {
+    color: rgb(151, 112, 12);
+    font-weight: bold;
+}
+section, table {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 65%;
+    padding: 0.5em;
+    margin-left: 2em;
+}
+#bobby {
+    z-index: 0;
+}
+#corona {
+    font-weight: bolder;
+    font-size: xx-large;
+    z-index: 1;
+    position: relative;
+    bottom: -4.5%;
+}
