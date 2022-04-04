@@ -7,17 +7,16 @@
     <title>Trabajo de Julio</title>
 </head>
 
-<body>
-    <wrapper>
+<body class="wrapper">
         <header class="column">
             <h1>
                 ♕ El Juego del Ajedrez ♔
             </h1>
-            <nav class="row around solid white wrapthis">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./biografia.html">Biografía</a></div>
-                <div><a href="./galeria.html">Galería</a></div>
-                <div><a href="./contacto.html">Contacto</a></div>
+            <nav class="row around solid white wrapthis w40">
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="../pages/biografia.html">Biografía</a></div>
+                <div><a href="../pages/galeria.html">Galería</a></div>
+                <div><a href="../pages/contacto.html">Contacto</a></div>
             </nav>
         </header>
         <main>
@@ -35,7 +34,7 @@
                             </b>
                         </legend>
                         <label for="Nombre">Nombre: </label>
-                        <input type="text" id="Nombre" autofocus placeholder="Julio">
+                        <input type="text" id="Nombre" autofocus placeholder="Julio" required>
                         <br><br>
                         <label for="Apellidos">Apellidos: </label>
                         <input type="text" id="Apellidos" placeholder="Cabanillas">
@@ -43,14 +42,16 @@
                         <label for="Fecha">Fecha de nacimiento: </label>
                         <input type="date" id="Fecha">
                         <br><br>
-                        <label>Sexo:</label> <br> <br>
-                        <div class="row around">
-                            <label for="Hombre">Hombre: </label>
-                            <input type="radio" id="Hombre" name="sexo" value="Hombre">
-                            <br> <br>
-                            <label for="Mujer">Mujer: </label>
-                            <input type="radio" id="Mujer" name="sexo" value="Mujer">
-                            <br> <br>
+                        <div class="column w25">
+                            <label>Sexo:</label>
+                            <div class="row around w20">
+                                <label for="Hombre">Hombre: </label>
+                                <input type="radio" id="Hombre" name="sexo" value="Hombre">
+                                <br> <br>
+                                <label for="Mujer">Mujer: </label>
+                                <input type="radio" id="Mujer" name="sexo" value="Mujer">
+                                <br> <br>
+                            </div>
                         </div>
                     </fieldset>
 
@@ -80,11 +81,11 @@
                             <br> <br>
                             <div class="row">
                                 <label for="color">Color favorito:</label>
-                                <input type="color" id="color">
+                                <input type="color" id="color" placeholder="red">
                             </div>
                             <br> <br>
                             <label for="curiosidad">Tu experiencia con juegos de estrategia por turnos</label> <br>
-                            <textarea id="curiosidad" cols="75" rows="15" placeholder="Cuéntame lo que quieras :)"></textarea>
+                            <textarea id="curiosidad" cols="75" rows="15" placeholder="Cuéntame lo que quieras :)" required></textarea>
                         </fieldset>
                         <br>
 
@@ -135,6 +136,5 @@
                 </tr>
             </table>
         </footer>
-    </wrapper>
 </body>
 </html>

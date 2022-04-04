@@ -7,26 +7,26 @@
     <title>Trabajo de Julio</title>
 </head>
 
-<body>
-    <wrapper>
+<body class="wrapper">
+    
         <header class="column">
             <h1>
                 ♕ El Juego del Ajedrez ♔
             </h1>
-            <nav class="row around solid white wrapthis">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./biografia.html">Biografía</a></div>
-                <div><a href="./galeria.html">Galería</a></div>
-                <div><a href="./contacto.html">Contacto</a></div>
+            <nav class="row around solid white wrapthis w40">
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="../pages/biografia.html">Biografía</a></div>
+                <div><a href="../pages/galeria.html">Galería</a></div>
+                <div><a href="../pages/contacto.html">Contacto</a></div>
             </nav>
         </header>
         <main class="row wrapthis">
-            <section class="column wrapthis">
+            <section class="column wrapthis big">
 
                 <article class="column big">
                     <div class="column start">
                         <h1>
-                            Bobby Fisher, Campeón Mundial
+                            Bobby Fischer, Campeón Mundial
                         </h1>
                         <p>Robert James Fischer, más conocido como Bobby Fischer (Chicago, Illinois; 9 de marzo de 1943
                             - Reikiavik, Islandia; 17 de enero de 2008), fue un gran maestro de ajedrez, campeón
@@ -39,10 +39,12 @@
                     </div>
                 </article>
 
-                <article class="column small wrapthis">
+                <article class="column small center wrapthis">
                     <table class="column center pieza">
                         <thead class="column center">
-                            <th colspan="2"><h3>Robert Fisher</h3></th>
+                            <tr>
+                                <th colspan="2"><h3>Robert Fischer</h3></th>
+                            </tr>
                         </thead>
                         <tbody class="column center">
                             <tr>
@@ -106,7 +108,7 @@
                             <tr>
                                 <td>
                                     <a href="http://www.bobbyfischer.net/">
-                                        Web de Bobby Fisher
+                                        Web de Bobby Fischer
                                     </a>
                                 </td>
                             </tr>
@@ -116,10 +118,10 @@
 
             </section>
 
-            <aside class="column pieza white center small">
+            <aside class="column pieza white center around small h25">
                     <a id="corona" class="center"><h1>♔</h1></a>
-                    <img id="bobby" src="./img/bobby.png" alt="bobby-contra-mijail">
-                    <caption>Fischer en Leipzig, 1960 jugando contra <i class="white">Mikhail Tal</i></caption>                
+                    <img class="center" src="./img/bobby.png" alt="bobby-contra-mijail">
+                    <caption>Fischer en Leipzig, 1960 jugando contra Mikhail Tal, en una de las partidas más decisivas de su vida (de la suya y la de Mikhail)</caption>                
             </aside>
 
         </main>
@@ -135,7 +137,6 @@
                 </tr>
             </table>
         </footer>
-    </wrapper>
 </body>
 
 </html>
