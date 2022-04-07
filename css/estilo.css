@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Baxoe';
+    src: url("../fonts/Baxoe.ttf");
+}
+
 * {
     font-family: 'Times New Roman', Times, serif;
     color: beige;
@@ -11,6 +16,9 @@
 }
 body, nav>div{
     background-color: black;
+}
+nav>div>a {
+    font-family: Baxoe;
 }
 .white, input, textarea {
     background-color: beige;
@@ -40,6 +48,7 @@ header {
     align-content: space-around;
 }
 .center, header>h1 {
+    font-family: 'Baxoe';
     display: flex;
     justify-content: center;
     align-content: center;
